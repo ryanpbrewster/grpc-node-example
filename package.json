@@ -1,8 +1,5 @@
 {
-  "name": "cloud-firestore-emulator-javascript-quickstart",
-  "version": "1.0.1",
-  "description": "Cloud Firestore emulator testing",
-  "devDependencies": {
-    "@firebase/testing": "0.3.0"
+  "dependencies": {
+    "grpc": "1.16.1"
   }
 }

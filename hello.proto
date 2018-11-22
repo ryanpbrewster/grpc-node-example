@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package hello;
+
+service HelloWorld {
+  rpc Capitalize(Text) returns (Text) {}
+}
+message Text {
+  string raw = 1;
+}
